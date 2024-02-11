@@ -1,0 +1,97 @@
+:root {
+    --white: #F9FAF8;
+    --gray: #E5E7EB;
+    --blue: #3882F6;
+    --dark-blue: #1F2937;
+}
+
+body {
+
+    background-color: var(--dark-blue);
+}
+
+.root {
+    height: 600px;
+
+
+    font-family: Verdana, sans-serif;
+}
+
+.root p {
+    color: var(--white);
+}
+
+.btn {
+    width: 150px;
+    height: 100px;
+
+    background-color: var(--blue);
+    color: var(--white);
+
+    font-size: 32px;
+    font-weight: bolder;
+
+    border-radius: 50px;
+}
+
+.btn:hover {
+    transform: scale3d(107%, 103%, 104%);
+}
+.btn:active {
+    transform: rotate3d(5, 5, 5, 5deg);
+}
+
+.announcement-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.announcement-section p {
+     display: inline-block;
+}
+
+.player-section {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    margin-top: 100px;
+}
+
+.winner-modal {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 250px;
+
+    border-radius: 15px;
+
+    gap: 10px;
+}
+
+.winner {
+    color: var(--blue) !important;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.close-btn {
+    width: 250px;
+    padding: 25px;
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+
+    color: var(--white);
+    background-color: rgba(255,50,46,0.91);
+}
